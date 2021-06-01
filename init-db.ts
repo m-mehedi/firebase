@@ -1,16 +1,18 @@
 
 import {COURSES, findLessonsForCourse} from './db-data';
 
-import * as firebase from 'firebase';
+import firebase from "firebase/app";
+import "firebase/auth";
+import "firebase/firestore";
 
 var config = {
-  apiKey: "AIzaSyDAdoefqX5OqjkD3BkW25ZAL6XYZMo4Vz8",
-  authDomain: "fir-course-17549.firebaseapp.com",
-  databaseURL: "https://fir-course-17549.firebaseio.com",
-  projectId: "fir-course-17549",
-  storageBucket: "fir-course-17549.appspot.com",
-  messagingSenderId: "170806523820",
-  appId: "1:170806523820:web:a3181632d54d076a0bec09"
+  apiKey: "AIzaSyBQlq65yR4E-Bwfdxtk5Nyi1oMC5DhB-Ec",
+  authDomain: "freya-dfbab.firebaseapp.com",
+  databaseURL: "https://freya-dfbab.firebaseio.com",
+  projectId: "freya-dfbab",
+  storageBucket: "freya-dfbab.appspot.com",
+  messagingSenderId: "1075690485776",
+  appId: "1:1075690485776:web:540db451af3f9478fdb295"
 };
 
 console.log("Uploading data to the database with the following config:\n");
